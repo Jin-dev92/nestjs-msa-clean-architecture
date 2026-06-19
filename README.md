@@ -1,5 +1,9 @@
-## 프로젝트 설명
-써보고 싶은 기술을 사용해보기 위한 프로젝트입니다.
+# NestJS MSA + Clean Architecture
+
+NestJS 모노레포로 마이크로서비스(gateway·user·chat)를 구성하고 Clean Architecture를 적용한 프로젝트입니다.
+gRPC 내부 통신, JWT 인증/인가, Docker·Kubernetes 배포를 직접 구현하며 MSA 설계를 학습합니다.
+
+## 사용 기술
 - 아키텍처 구성: MSA + Clean Architecture
 - 프로토콜: gRPC + REST API
 - 인증/인가: JWT
